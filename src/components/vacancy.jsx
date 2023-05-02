@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export default function Vacancy(){
     return (
         <>
@@ -12,7 +13,8 @@ export default function Vacancy(){
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the
                             cards content.</p>
                     <a href="#" className="btn card-link">Apply</a>
-                    <a href="./job_detail.html" className="btn card-link">Read More</a>
+                    {/* <a href="./job_detail.html" className="btn card-link">Read More</a> */}
+                    <Link to="/jobs" className="btn card-link">Read More</Link>
                 </div>
             </div>
             <div className="card" >
@@ -22,7 +24,8 @@ export default function Vacancy(){
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the
                         cards content.</p>
                         <a href="#" className="btn card-link">Apply</a>
-                        <a href="./job_detail.html" className="btn card-link">Read More</a>
+                         {/* <a href="./job_detail.html" className="btn card-link">Read More</a> */}
+                    <Link to="/jobs" className="btn card-link">Read More</Link>
                     </div>
                 </div>
                 <div className="card" >
@@ -32,7 +35,8 @@ export default function Vacancy(){
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the
                             cards content.</p>
                             <a href="#" className="btn card-link">Apply</a>
-                            <a href="./job_detail.html" className="btn card-link">Read More</a>
+                             {/* <a href="./job_detail.html" className="btn card-link">Read More</a> */}
+                    <Link to="/jobs" className="btn card-link">Read More</Link>
                         </div>
                     </div>
                     <div className="card" >
@@ -42,7 +46,8 @@ export default function Vacancy(){
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the
                                 cards content.</p>
                                 <a href="#" className="btn card-link">Apply</a>
-                                <a href="./job_detail.html" className="btn card-link">Read More</a>
+                                 {/* <a href="./job_detail.html" className="btn card-link">Read More</a> */}
+                    <Link to="/jobs" className="btn card-link">Read More</Link>
                             </div>
                         </div>
                     </div>
