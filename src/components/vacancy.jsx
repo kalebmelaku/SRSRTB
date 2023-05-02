@@ -12,7 +12,7 @@ export default function Vacancy(){
                         <h6 className="card-subtitle mb-2 text-body-secondary">2023-04-29</h6>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the
                             cards content.</p>
-                    <a href="#" className="btn card-link">Apply</a>
+                    <Link to="/apply" className="btn card-link">Apply</Link>
                     {/* <a href="./job_detail.html" className="btn card-link">Read More</a> */}
                     <Link to="/jobs" className="btn card-link">Read More</Link>
                 </div>
@@ -23,7 +23,7 @@ export default function Vacancy(){
                     <h6 className="card-subtitle mb-2 text-body-secondary">2023-04-29</h6>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the
                         cards content.</p>
-                        <a href="#" className="btn card-link">Apply</a>
+                        <Link to="/apply" className="btn card-link">Apply</Link>
                          {/* <a href="./job_detail.html" className="btn card-link">Read More</a> */}
                     <Link to="/jobs" className="btn card-link">Read More</Link>
                     </div>
@@ -34,7 +34,7 @@ export default function Vacancy(){
                         <h6 className="card-subtitle mb-2 text-body-secondary">2023-04-29</h6>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the
                             cards content.</p>
-                            <a href="#" className="btn card-link">Apply</a>
+                            <Link to="/apply" className="btn card-link">Apply</Link>
                              {/* <a href="./job_detail.html" className="btn card-link">Read More</a> */}
                     <Link to="/jobs" className="btn card-link">Read More</Link>
                         </div>
@@ -45,7 +45,7 @@ export default function Vacancy(){
                             <h6 className="card-subtitle mb-2 text-body-secondary">2023-04-29</h6>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the
                                 cards content.</p>
-                                <a href="#" className="btn card-link">Apply</a>
+                                <Link to="/apply" className="btn card-link">Apply</Link>
                                  {/* <a href="./job_detail.html" className="btn card-link">Read More</a> */}
                     <Link to="/jobs" className="btn card-link">Read More</Link>
                             </div>

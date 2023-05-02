@@ -58,7 +58,7 @@ export default function Jobs() {
                                 <li className="py-2 fs-5"><FontAwesomeIcon icon={faCalendar}/> deadline to
                                     apply</li>
                             </ul>
-                            <a href="./apply.html" className="btn">Apply</a>
+                            <a href="./apply" className="btn">Apply</a>
                         </div>
                     </div>
                     <div className="about my-4">
