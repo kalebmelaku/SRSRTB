@@ -119,6 +119,17 @@ nav {
 .about h5{
     font-weight: bold;
 }
+#menu{
+    li{
+        padding: 0 !important;
+    }
+    a{
+        color: $green;
+        h3{
+            margin: 0;
+        }
+    }
+} 
 #about p{
     font-size: clamp(1rem, 1.5vw, 1.1rem) !important;
 }

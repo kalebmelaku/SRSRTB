@@ -1,5 +1,7 @@
+
 import logo from '../assets/main_logo.png';
 export default function NavBar(){
+
     return (
         <>
              <nav className="navbar py-0 navbar-expand-lg sticky-top bg-body-tertiary" id="navbar">
