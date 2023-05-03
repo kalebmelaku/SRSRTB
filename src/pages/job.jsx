@@ -21,19 +21,19 @@ export default function Jobs() {
                     <div id="menu" className="mob-view bg-white">
                         <ul className="bg-white px-0 border-bottom">
                             <li className="mb-2 p-2">
-                                <a href="./job_detail.html">
+                                <a href="#">
                                     <h3 className="px-0">Job Title</h3>
                                 </a>
                                 <p className="px-0">Posted Date</p>
                             </li>
                             <li className="mb-2 p-2">
-                                <a href="./job_detail.html">
+                                <a href="#">
                                     <h3 className="px-0">Job Title</h3>
                                 </a>
                                 <p className="px-0">Posted Date</p>
                             </li>
                             <li className="mb-2 p-2">
-                                <a href="./job_detail.html">
+                                <a href="#">
                                     <h3 className="px-0">Job Title</h3>
                                 </a>
                                 <p className="px-0">Posted Date</p>
