@@ -133,6 +133,9 @@ nav {
 #about p{
     font-size: clamp(1rem, 1.5vw, 1.1rem) !important;
 }
+.custom-container{
+    max-width: 800px;
+}
 footer{
     margin-top: 2rem;
     // height: 2rem;

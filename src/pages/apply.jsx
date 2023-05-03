@@ -19,7 +19,7 @@ const JobApplicationForm = () => {
     <>
       <Banner />
       <NavBar />
-      <div className="container-sm">
+      <div className="container-sm custom-container">
         <div className="title my-3">
           <h2 className="title">Job Title</h2>
         </div>

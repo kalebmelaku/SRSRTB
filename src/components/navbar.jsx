@@ -1,7 +1,14 @@
-
+import { useState } from 'react';
 import logo from '../assets/main_logo.png';
 export default function NavBar(){
+    const [activeLink, setActiveLink] = useState('');
 
+    const handleLinkClick = (id) => {
+        if (id !== 'home') {
+            
+            setActiveLink(id);
+          }
+    };
     return (
         <>
              <nav className="navbar py-0 navbar-expand-lg sticky-top bg-body-tertiary" id="navbar">
@@ -17,24 +24,23 @@ export default function NavBar(){
                 <div className="navbar-nav ms-auto"></div>
                 <div className="navbar-nav">
                     <ul  className="navbar-nav d-flex align-items-center justify-content-center">
-                        <li  className="nav-item">
-                            <a href="/" className="nav-link py-0">HOME</a>
+                        <li  className="nav-item" onClick={()=>handleLinkClick('home')}>
+                            <a href="/" className={`nav-link py-0 ${activeLink === 'home' ? 'active' : ''}`}  >HOME</a>
                         </li>
-                        <li  className="nav-item ">
-                            <a className="nav-link py-0" href="/#about" aria-expanded="false">
+                        <li  className="nav-item " onClick={()=>handleLinkClick('about')}>
+                            <a className={`nav-link py-0 ${activeLink === 'about' ? 'active' : ''}`} href="/#about" aria-expanded="false">
                                 ABOUT US
                             </a>
                         
                         </li>
-                        <li  className="nav-item ">
-                            <a className="nav-link py-0" href="/#partners" aria-expanded="false">
+                        <li  className="nav-item" onClick={() => handleLinkClick('partners')}>
+                            <a className={`nav-link py-0 ${activeLink === 'partners' ? 'active' : ''}`} href="/#partners" aria-expanded="false">
                                 PARTNERS
                             </a>
                         </li>
-                        <li  className="nav-item ">
-                        </li>
-                        <li  className="nav-item ">
-                            <a className="nav-link py-0" href="/#vacancy">
+                    
+                        <li  className="nav-item" onClick={() => handleLinkClick('vacancy')}>
+                            <a className={`nav-link py-0 ${activeLink === 'vacancy' ? 'active' : ''}`} href="/#vacancy">
                                 VACANCY
                             </a>
                         </li>
