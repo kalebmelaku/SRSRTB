@@ -50,7 +50,7 @@ export default function Jobs() {
                 <div className="bg-white mt-3 p-3 col-lg-9">
                     <div className="d-flex flex-column justify-content-between border-bottom mb-4">
                         <h2 className="font-weight-bold text-2xl">Job Title</h2>
-                        <p className="sub-title">location and posted date</p>
+                        <p className="subtitle">location and posted date</p>
                     </div>
                     <div className="row row-cols-1 row-cols-md-2">
                         <div className="main-info">
