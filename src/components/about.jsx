@@ -17,7 +17,7 @@ export default function About(){
                 improved seeds & animal vaccinations; establishing new schools with developing educational programming;
                 providing essential skills training and vocational activities alongside micronance operations so
                 individuals can and alternative livelihoods or start up small businesses.</p>
-            <h3 className="fs-1 fw-bold py-3">What we stand for</h3>
+            <h3 className="fs-3 fw-bold py-1 my-0">What we stand for</h3>
             <p className="fs-5">Our vision, our mission and our work are all defined by one goal – ending extreme poverty,
                 whatever it
                 takes. We believe that no-one should have to live in fear that they wont have a home to sleep in or

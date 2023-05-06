@@ -11,7 +11,7 @@ import zoa from '../assets/partners/zoa.png'
 export default function Partners(){
     return (
         <>
-                <section id="partners" className="py-3">
+                <section id="partners" className="py-1">
         <div className="container-sm">
         <h2 className="text-center py-2 my-5 fw-bold">Our Partners</h2>
             <div className="flex-container">
