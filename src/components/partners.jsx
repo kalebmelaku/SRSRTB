@@ -13,7 +13,7 @@ export default function Partners(){
         <>
                 <section id="partners" className="py-1">
         <div className="container-sm">
-        <h2 className="text-center py-2 my-5 fw-bold">Our Partners</h2>
+        <h2 className="text-center py-2 my-3 fw-bold">Our Partners</h2>
             <div className="flex-container">
                 <img src={arche} alt=""/>
                 <img src={unicef} alt=""/>

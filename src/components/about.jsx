@@ -3,7 +3,7 @@ export default function About(){
         <>
                 <section id="about" className="py-3">
         <div className="container-sm">
-            <h2 className="text-center py-2 my-5 fw-bold">About Us</h2>
+            <h2 className="text-center py-2 my-3 fw-bold">About Us</h2>
             <p className="fs-5">The Organization for Welfare Development in Action (OWDA) is a non-profit organization based
                 in the
                 Somali region of Ethiopia. Our mission is to provide support and improve access to basic services,
