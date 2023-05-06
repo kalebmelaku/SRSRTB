@@ -5,11 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSuitcase, faList, faMale, faCalendar, faAngleDown } from '@fortawesome/free-solid-svg-icons'
 export default function Jobs() {
     const [isMobView, setIsMobView] = useState(false);
-
     const toggleMobView = () => {
         setIsMobView(!isMobView);
     };
-
   return (
     <>
     <Banner/>
@@ -24,7 +22,7 @@ export default function Jobs() {
                         <FontAwesomeIcon id="bars" onClick={toggleMobView} className="menu_btn mb-2 cursor-pointer text-black fa-2x hide" icon={faAngleDown} />
                     </div>
               
-                    <div id="menu" className={isMobView ? ' bg-white' : ' mob-view bg-white'}>
+                    <div id="menu" className={isMobView ? 'p-2 bg-white' : 'p-2 mob-view bg-white'}>
                         <ul className="bg-white px-0 border-bottom">
                             <li className="mb-2 p-2">
                                 <a href="#">
@@ -57,11 +55,11 @@ export default function Jobs() {
                     <div className="row row-cols-1 row-cols-md-2">
                         <div className="main-info">
                             <ul className="px-0">
-                                <li className="py-2 fs-5"><FontAwesomeIcon icon={faSuitcase} /> Full time</li>
-                                <li className="py-2 fs-5"><FontAwesomeIcon icon={faList}/> Main Skill</li>
-                                <li className="py-2 fs-5"><FontAwesomeIcon icon={faMale}/> Number of required
+                                <li className="py-2 fs-6"><FontAwesomeIcon icon={faSuitcase} /> Full time</li>
+                                <li className="py-2 fs-6"><FontAwesomeIcon icon={faList}/> Main Skill</li>
+                                <li className="py-2 fs-6"><FontAwesomeIcon icon={faMale}/> Number of required
                                     people</li>
-                                <li className="py-2 fs-5"><FontAwesomeIcon icon={faCalendar}/> deadline to
+                                <li className="py-2 fs-6"><FontAwesomeIcon icon={faCalendar}/> deadline to
                                     apply</li>
                             </ul>
                             <a href="./apply" className="btn">Apply</a>
