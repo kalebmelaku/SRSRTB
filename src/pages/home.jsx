@@ -4,6 +4,7 @@ import About from "../components/about"
 import Vacancy from "../components/vacancy"
 import Partners from "../components/partners"
 import Carousal from "../components/carousal"
+import Footer from "../components/footer"
 export default function Home() {
 
 
@@ -15,7 +16,8 @@ export default function Home() {
       <About/>
       <Partners/>
       <Vacancy/>
-      <Banner/>     
+      <Footer/>
+      {/* <Banner/>      */}
     </>
   )
 }

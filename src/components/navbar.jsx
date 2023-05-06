@@ -2,6 +2,7 @@ import { useState } from 'react';
 import logo from '../assets/main_logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 export default function NavBar(){
     const [activeLink, setActiveLink] = useState('');
@@ -57,9 +58,10 @@ export default function NavBar(){
                                         </a>
                                     </li>
                                     <li  className="nav-item" onClick={() => handleLinkClick('vacancy')}>
-                                        <a className={`nav-link py-0 ${activeLink === 'vacancy' ? 'active' : ''}`} href="/#vacancy">
+                                        <Link className={`nav-link py-0 ${activeLink === 'vacancy' ? 'active' : ''}`} to="/jobList">
                                             Vacancy
-                                        </a>
+                                        </Link>
+                                        
                                     </li>
                                 </ul>
                             </div>

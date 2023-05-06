@@ -3,6 +3,7 @@ import NavBar from "../components/navbar"
 import {useState} from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSuitcase, faList, faMale, faCalendar, faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import Footer from "../components/footer"
 export default function Jobs() {
     const [isMobView, setIsMobView] = useState(false);
     const toggleMobView = () => {
@@ -12,7 +13,7 @@ export default function Jobs() {
     <>
     <Banner/>
     <NavBar/>
-           <section className="job-list">
+           <section className="job-list pb-5">
         <div className="container">
             <div className="d-flex flex-column flex-lg-row gap-3">
                 <div className="mt-3 col-lg-3">
@@ -47,7 +48,7 @@ export default function Jobs() {
                 </div>
 
 
-                <div className="bg-white mt-3 p-3 col-lg-9">
+                <div className="bg-white mt-3 p-2 col-lg-9">
                     <div className="d-flex flex-column justify-content-between border-bottom mb-4">
                         <h2 className="font-weight-bold text-2xl">Job Title</h2>
                         <p className="subtitle">location and posted date</p>
@@ -132,7 +133,7 @@ export default function Jobs() {
             </div>
         </div>
     </section>
-    <Banner/>
+    <Footer/>
     </>
   )
 }

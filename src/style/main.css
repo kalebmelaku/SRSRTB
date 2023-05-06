@@ -23,6 +23,17 @@
   color: #fff;
 }
 
+.btn-secondary {
+  background: none;
+  color: #2D2926;
+  border: 2px solid #009245;
+  transition: all 300ms;
+}
+.btn-secondary:hover {
+  background-color: rgb(0, 87, 40);
+  color: #fff;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -137,7 +148,7 @@ nav ul .nav-link:hover::before {
 #about h2,
 #partners h2,
 #vacancy h2 {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 1.5vw, 2rem);
   background-color: #009245;
   color: #fff;
   padding: 0;
@@ -162,19 +173,9 @@ nav ul .nav-link:hover::before {
   border-top: 3px solid #009245;
   transition: all 300ms;
 }
-.flex-container .card .card-link:last-of-type {
-  background: none;
-  color: #2D2926;
-  border: 2px solid #009245;
-  transition: all 300ms;
-}
-.flex-container .card .card-link:last-of-type:hover {
-  background-color: rgb(0, 87, 40);
-  color: #fff;
-}
 .flex-container .card:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .about h5 {
@@ -191,14 +192,25 @@ nav ul .nav-link:hover::before {
   margin: 0;
 }
 
-#about p {
+#about p,
+.card-body p {
   font-size: clamp(1rem, 1.5vw, 1.1rem) !important;
+}
+
+.card-subtitle {
+  font-size: 0.8rem !important;
 }
 
 .custom-container {
   max-width: 800px;
 }
 
-footer {
+.footer {
   margin-top: 2rem;
+  background: url("../assets/top-header.png") no-repeat center center/cover;
+  padding: 0.5rem 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
