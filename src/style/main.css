@@ -140,7 +140,7 @@ nav ul .nav-link:hover::before {
   gap: 3rem;
 }
 .flex-container .card {
-  width: 18rem;
+  max-width: 18rem;
   border: none;
   border: 1px solid #009245;
   border-top: 3px solid #009245;

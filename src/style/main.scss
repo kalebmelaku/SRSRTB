@@ -91,7 +91,7 @@ nav {
     flex-wrap: wrap;
     gap: 3rem;
     .card{
-        width: 18rem;
+        max-width: 18rem;
         border: none;
         border: 1px solid $green;
         border-top: 3px solid $green;
