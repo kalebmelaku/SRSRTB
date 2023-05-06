@@ -5,7 +5,6 @@ export default function NavBar(){
 
     const handleLinkClick = (id) => {
         if (id !== 'home') {
-            
             setActiveLink(id);
           }
     };
@@ -25,23 +24,23 @@ export default function NavBar(){
                 <div className="navbar-nav">
                     <ul  className="navbar-nav d-flex align-items-center justify-content-center">
                         <li  className="nav-item" onClick={()=>handleLinkClick('home')}>
-                            <a href="/" className={`nav-link py-0 ${activeLink === 'home' ? 'active' : ''}`}  >HOME</a>
+                            <a href="/" className={`nav-link py-0 ${activeLink === 'home' ? 'active' : ''}`}  >Home</a>
                         </li>
                         <li  className="nav-item " onClick={()=>handleLinkClick('about')}>
                             <a className={`nav-link py-0 ${activeLink === 'about' ? 'active' : ''}`} href="/#about" aria-expanded="false">
-                                ABOUT US
+                                About Us
                             </a>
                         
                         </li>
                         <li  className="nav-item" onClick={() => handleLinkClick('partners')}>
                             <a className={`nav-link py-0 ${activeLink === 'partners' ? 'active' : ''}`} href="/#partners" aria-expanded="false">
-                                PARTNERS
+                                Partners
                             </a>
                         </li>
                     
                         <li  className="nav-item" onClick={() => handleLinkClick('vacancy')}>
                             <a className={`nav-link py-0 ${activeLink === 'vacancy' ? 'active' : ''}`} href="/#vacancy">
-                                VACANCY
+                                Vacancy
                             </a>
                         </li>
                     </ul>
