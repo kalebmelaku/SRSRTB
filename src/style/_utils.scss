@@ -38,6 +38,9 @@ $blue-hover: rgba(10, 93, 123, 0.863);
         color: #fff;
     }
 }
+.cursor-pointer{
+    cursor: pointer;
+}
 .active{
     border-bottom: 2px solid $green;
 }

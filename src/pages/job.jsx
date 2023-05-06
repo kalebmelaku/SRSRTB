@@ -1,9 +1,14 @@
 import Banner from "../components/banner"
 import NavBar from "../components/navbar"
+import {useState} from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSuitcase, faList, faMale, faCalendar } from '@fortawesome/free-solid-svg-icons'
+import { faSuitcase, faList, faMale, faCalendar, faAngleDown } from '@fortawesome/free-solid-svg-icons'
 export default function Jobs() {
+    const [isMobView, setIsMobView] = useState(false);
 
+    const toggleMobView = () => {
+        setIsMobView(!isMobView);
+    };
 
   return (
     <>
@@ -15,10 +20,11 @@ export default function Jobs() {
                 <div className="mt-3 col-lg-3">
                     <div className="p-2 bg-white d-flex justify-content-between align-items-center border-bottom">
                         <h2 className="text-black font-weight-bold text-lg mb-2">Similar Jobs</h2>
-                        <i id="bars" className="menu_btn fa-solid mb-2 text-black fa-bars fa-2x hide"></i>
+                        {/* <i id="bars" className="menu_btn fa-solid mb-2 text-black fa-bars fa-2x hide-cont"></i> */}
+                        <FontAwesomeIcon id="bars" onClick={toggleMobView} className="menu_btn mb-2 cursor-pointer text-black fa-2x hide" icon={faAngleDown} />
                     </div>
               
-                    <div id="menu" className="mob-view bg-white">
+                    <div id="menu" className={isMobView ? ' bg-white' : ' mob-view bg-white'}>
                         <ul className="bg-white px-0 border-bottom">
                             <li className="mb-2 p-2">
                                 <a href="#">
