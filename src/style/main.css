@@ -46,6 +46,22 @@
     min-height: -moz-max-content;
     min-height: max-content;
   }
+  .offcanvas {
+    width: 50vw !important;
+    background-color: #009245;
+  }
+  .offcanvas .offcanvas-header button {
+    background: none;
+    color: #fff !important;
+    opacity: 1;
+    border: none;
+  }
+  .offcanvas ul li {
+    margin: 2rem 0;
+  }
+  .offcanvas ul li a {
+    color: #fff;
+  }
 }
 @media (max-width: 560px) {
   .fs-md-2 {

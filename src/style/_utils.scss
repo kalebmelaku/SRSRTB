@@ -49,6 +49,24 @@ $green-hover: rgb(0, 87, 40);
     #menu{
         min-height: max-content;
     }
+    .offcanvas{
+        width: 50vw !important;
+        background-color: $green;
+        .offcanvas-header{
+            button{
+                background: none;
+                color: #fff !important;
+                opacity: 1;
+                border: none;
+            }
+        }
+        ul li{
+            margin: 2rem 0;
+            a{
+                color: #fff;
+            } 
+        }
+    }
 }
 @media (max-width: 560px){
     .fs-md-2{
