@@ -1,12 +1,12 @@
-import banner from '../assets/top-header.png'
+import banner from '../assets/top-header.png';
 function Banner() {
-    return (
-      <>
-    <div className="banner">
+  return (
+    <>
+      <div className="banner">
         <img src={banner} alt="top header" />
-    </div> 
-      </>
-    )
-  }
-  
-  export default Banner
+      </div>
+    </>
+  );
+}
+
+export default Banner;

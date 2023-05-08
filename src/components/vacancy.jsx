@@ -1,92 +1,21 @@
 import { Link } from "react-router-dom";
+import Box from "./box";
 export default function Vacancy() {
   return (
     <>
-      <section id="vacancy" className="pb-5">
-        <div className="container-sm">
+      <section id="vacancy" className="py-3">
+        <div className="container mx-auto max-w-screen-xl p-4">
           <h2 className="text-center py-2 my-5 fw-bold">Vacancy</h2>
-          <div className="flex-container">
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Job Title</h5>
-                <h6 className="card-subtitle mb-2 text-body-secondary">
-                  2023-04-29
-                </h6>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
-                </p>
-                <Link to="/apply" className="btn card-link">
-                  Apply
-                </Link>
-                {/* <a href="./job_detail.html" className="btn card-link btn-secondary">Read More</a> */}
-                <Link to="/jobs" className="btn card-link btn-secondary">
-                  Read More
-                </Link>
-              </div>
-            </div>
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Job Title</h5>
-                <h6 className="card-subtitle mb-2 text-body-secondary">
-                  2023-04-29
-                </h6>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
-                </p>
-                <Link to="/apply" className="btn card-link">
-                  Apply
-                </Link>
-                {/* <a href="./job_detail.html" className="btn card-link btn-secondary">Read More</a> */}
-                <Link to="/jobs" className="btn card-link btn-secondary">
-                  Read More
-                </Link>
-              </div>
-            </div>
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Job Title</h5>
-                <h6 className="card-subtitle mb-2 text-body-secondary">
-                  2023-04-29
-                </h6>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
-                </p>
-                <Link to="/apply" className="btn card-link">
-                  Apply
-                </Link>
-                {/* <a href="./job_detail.html" className="btn card-link btn-secondary">Read More</a> */}
-                <Link to="/jobs" className="btn card-link btn-secondary">
-                  Read More
-                </Link>
-              </div>
-            </div>
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Job Title</h5>
-                <h6 className="card-subtitle mb-2 text-body-secondary">
-                  2023-04-29
-                </h6>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
-                </p>
-                <Link to="/apply" className="btn card-link">
-                  Apply
-                </Link>
-                {/* <a href="./job_detail.html" className="btn card-link btn-secondary">Read More</a> */}
-                <Link to="/jobs" className="btn card-link btn-secondary">
-                  Read More
-                </Link>
-              </div>
-            </div>
+          <div className="flex-container mt-4 w-full">
+            <Box />
+            <Box />
+            <Box />
+            <Box />
           </div>
-          <div className="d-flex align-items-center justify-content-center my-3">
-            <Link to="/jobList" className="btn btn-secondary">
+          <div className="flex items-center justify-center mt-4">
+            <a href="/jobList" className="btn card-link inline-block">
               Show More
-            </Link>
+            </a>
           </div>
         </div>
       </section>

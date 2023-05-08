@@ -12,13 +12,15 @@ nav {
     background-color: #fff !important;
     box-shadow: 10px 0 25px #9c9c9c63;
     border-bottom: 3px solid $green;
+
     ul {
         .nav-link {
             position: relative;
             color: $black;
             // font-size: 1.2rem;
             margin-left: .5rem;
-            &::before{
+
+            &::before {
                 content: '';
                 position: absolute;
                 bottom: 0;
@@ -28,7 +30,8 @@ nav {
                 background-color: $green;
                 transition: all 400ms;
             }
-            &:hover::before{
+
+            &:hover::before {
                 width: 100%;
             }
         }
@@ -41,14 +44,16 @@ nav {
     align-items: center;
     justify-content: center;
 }
-.mySwiper{
-    // height: 40vh;
-    img{
+
+.mySwiper {
+    img {
         width: 100%;
     }
 }
+
 .slide-container {
     position: relative;
+
     &:before {
         content: '';
         position: absolute;
@@ -59,50 +64,33 @@ nav {
         background-color: #00000062;
         z-index: 2;
     }
-    .text{
+
+    .text {
         position: absolute;
-        top: 40%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 100;
+        width: 100%;
+
+        h3 {
+            font-size: clamp(1.5rem, 2vw, 2.5rem);
+        }
+
+        p {
+            font-size: clamp(1.2rem, 2vw, 1.5rem);
+        }
     }
 }
 
-
-
-// .swiper-wrapper{
-//     position: relative;
-//     z-index: 5;
-//     &:before {
-//         content: '';
-//         position: absolute;
-//         top: 0;
-//         left: 0;
-//         width: 100%;
-//         height: 100%;
-//         background-color: #00000062;
-//         z-index: 6;
-//     }
-//     .text{
-//         position: absolute;
-//         top: 50%;
-//         left: 50%;
-//         transform: translate(-50%, -50%);
-//         z-index: 2 !important;
-//     }
-// }
-.mySwiper{
+.mySwiper {
     max-height: 50vh;
     height: auto;
 }
-.swiper-slide{
+
+.swiper-slide {
     width: 100% !important;
-    // height: 100%;
 }
-// .mySwiper {
-//     position: relative;
-//     z-index: -1;
-// }
 
 .carousel-caption {
     display: block;
@@ -120,68 +108,115 @@ nav {
 
 #about,
 #partners,
-#vacancy{
-    h2{
+#vacancy {
+    h2 {
         font-size: clamp(1.5rem, 1.5vw, 2rem);
         background-color: $green;
         color: #fff;
         padding: 0;
     }
-    h3{
+
+    h3 {
+        font-size: clamp(1.5rem, 1.5vw, 2rem);
         color: $green;
     }
 }
-.flex-container{
+
+#vacancy {
+    h3 {
+        font-size: clamp(1rem, 1.5vw, 1.5rem);
+        color: unset;
+    }
+
+    p.sub-title {
+        color: gray;
+        font-size: .8rem;
+    }
+}
+
+.flex-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 3rem;
-    .card{
-        max-width: 18rem;
+    gap: 2rem;
+    width: 100% !important;
+
+    .card-custom {
+        width: 18rem;
         border: none;
         border: 1px solid $green;
         border-top: 3px solid $green;
         transition: all 300ms;
-        &:hover{
+        padding-bottom: 1rem;
+
+        &:hover {
             cursor: pointer;
             transform: scale(1.05);
         }
     }
 }
-.about h5{
+
+.about h5 {
     font-weight: bold;
 }
-#menu{
-    li{
+
+.job-list {
+    h2 {
+        font-size: clamp(1.5rem, 1.5vw, 1.7rem);
+    }
+}
+
+#menu {
+    h3 {
+        font-size: clamp(1rem, 1.5vw, 1.3rem);
+    }
+
+    li {
         padding: 0 !important;
     }
-    a{
+
+    a {
         color: $green;
-        h3{
+
+        h3 {
             margin: 0;
         }
     }
-} 
+}
+
 #about p,
-.card-body p{
+.card-text {
     font-size: clamp(1rem, 1.5vw, 1.1rem) !important;
 }
-.card-subtitle{
+
+.card-text {
+    padding: .5rem 0;
+    line-height: 1.8rem;
+}
+
+.card-subtitle {
     font-size: 0.8rem !important;
 }
-.custom-container{
+
+.custom-container {
     max-width: 800px;
 }
-label, input::placeholder{
+
+label,
+input::placeholder {
     font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
-.footer{
-    margin-top: 2rem;
-    background: url('../assets/top-header.png') no-repeat center center/cover;
-    padding: .5rem 0;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+
+footer {
+    margin-top: 3rem;
+
+    .footer {
+        background: url('../assets/top-header.png') no-repeat center center/cover;
+        padding: .5rem 0;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
 }
