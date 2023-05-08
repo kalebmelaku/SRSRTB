@@ -66,8 +66,9 @@ export default function Carousal(){
     <Swiper
         spaceBetween={30}
         centeredSlides={true}
+        loop={true}
         autoplay={{
-            delay: 32500,
+            delay: 2500,
             disableOnInteraction: false,
         }}
         pagination={{
@@ -86,17 +87,42 @@ export default function Carousal(){
     </div>
   </div>
         </SwiperSlide>
+       
         <SwiperSlide>
-        <img src={homeImg} className="" alt="..." />
+           <div className="slide-container">
+    <img src={homeImg} className="" alt="..." />
+    <div className="text">
+      <h3 className='text-center text-white'>Second Slide</h3>
+      <p className='text-center text-white'>Some representative placeholder content for the Second slide.</p>
+    </div>
+  </div>
         </SwiperSlide>
         <SwiperSlide>
-        <img src={homeImg} className="" alt="..." />
+           <div className="slide-container">
+    <img src={homeImg} className="" alt="..." />
+    <div className="text">
+      <h3 className='text-center text-white'>Third Slide</h3>
+      <p className='text-center text-white'>Some representative placeholder content for the Third slide.</p>
+    </div>
+  </div>
         </SwiperSlide>
         <SwiperSlide>
-        <img src={homeImg} className="" alt="..." />
+           <div className="slide-container">
+    <img src={homeImg} className="" alt="..." />
+    <div className="text">
+      <h3 className='text-center text-white'>Fourth Slide</h3>
+      <p className='text-center text-white'>Some representative placeholder content for the Fourth slide.</p>
+    </div>
+  </div>
         </SwiperSlide>
-        <SwiperSlide>
-        <img src={homeImg} className="" alt="..." />
+         <SwiperSlide>
+           <div className="slide-container">
+    <img src={homeImg} className="" alt="..." />
+    <div className="text">
+      <h3 className='text-center text-white'>Fifth Slide</h3>
+      <p className='text-center text-white'>Some representative placeholder content for the Fifth slide.</p>
+    </div>
+  </div>
         </SwiperSlide>
         
       </Swiper>

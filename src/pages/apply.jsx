@@ -21,12 +21,12 @@ const JobApplicationForm = () => {
       <NavBar />
       <div className="container-sm custom-container">
         <div className="title my-3">
-          <h3 className="title">Job Title</h3>
+          <h3 className="title fs-5">Job Title</h3>
         </div>
         <form action="" >
           <div className="row my-4">
             <div className="col-sm-6 mb-3 mb-sm-0">
-              <label className="form-check-label fs-6" htmlFor="fname">
+              <label className="form-check-label" htmlFor="fname">
                 First Name
               </label>
               <input
@@ -39,7 +39,7 @@ const JobApplicationForm = () => {
               />
             </div>
             <div className="col-sm-6">
-              <label className="form-check-label fs-6" htmlFor="lname">
+              <label className="form-check-label" htmlFor="lname">
                 Last Name
               </label>
               <input
@@ -54,7 +54,7 @@ const JobApplicationForm = () => {
           </div>
           <div className="row my-4">
           <div className="col-sm-6 mb-3 mb-sm-0">
-              <label className="form-check-label fs-6" htmlFor="phone">
+              <label className="form-check-label" htmlFor="phone">
                 Phone Number
               </label>
               <input
@@ -67,7 +67,7 @@ const JobApplicationForm = () => {
               />
             </div>
             <div className="col-sm-6">
-              <label className="form-check-label fs-6" htmlFor="email">
+              <label className="form-check-label" htmlFor="email">
                 Email
               </label>
               <input
@@ -81,7 +81,7 @@ const JobApplicationForm = () => {
           </div>
           <div className="row">
             <div className="col">
-              <label className="form-check-label fs-6" htmlFor="resume">
+              <label className="form-check-label" htmlFor="resume">
                 Resume / CV
               </label>
               <input

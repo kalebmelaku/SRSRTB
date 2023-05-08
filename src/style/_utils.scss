@@ -85,4 +85,15 @@ $green-hover: rgb(0, 87, 40);
     .fs-md-1{
         font-size: 1rem !important;
     }
+    .slide-container {
+        .text{
+            top: 50% !important;
+            h3{
+                font-size: 1rem;
+            }
+            p{
+                font-size: .7rem;
+            }
+        }
+    }
 }
