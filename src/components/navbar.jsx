@@ -11,9 +11,9 @@ export default function NavBar() {
     };
     return (
         <>
-            <nav className="bg-white border-gray-200 dark:bg-gray-900">
+            <nav className="bg-white dark:bg-gray-900">
                 <div
-                    className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+                    className="max-w-screen-xl flex flex-wrap items-center  justify-between mx-auto p-2 "
                 >
                     <a href="/" className="navbar-brand">
                         <img src={logo} alt="logo" width="60" height="" className="d-inline-block align-text-top" />
@@ -43,7 +43,7 @@ export default function NavBar() {
                                 <a
                                     href="/#about"
                                     className="block py-2 pl-3 pr-4 text-gray-900 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                                >About</a>
+                                >About Us</a>
                             </li>
                             <li className='nav-link'>
                                 <a

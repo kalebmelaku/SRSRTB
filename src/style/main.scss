@@ -71,14 +71,14 @@ nav {
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 100;
-        width: 100%;
+        width: 80%;
 
         h3 {
-            font-size: clamp(1.5rem, 2vw, 2.5rem);
+            font-size: clamp(1.5rem, 2vw, 2.8rem);
         }
 
         p {
-            font-size: clamp(1.2rem, 2vw, 1.5rem);
+            font-size: clamp(.8rem, 2vw, 1.5rem);
         }
     }
 }

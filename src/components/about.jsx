@@ -20,7 +20,7 @@ export default function About() {
                         directly into rural areas; improving nutrition through access to
                         improved seeds & animal vaccinations; establishing new schools with
                         developing educational programming; providing essential skills
-                        training and vocational activities alongside micro'nance operations so
+                        training and vocational activities alongside micronance operations so
                         individuals can and alternative livelihoods or start up small
                         businesses.
                     </p>
@@ -28,11 +28,11 @@ export default function About() {
                     <p className="py-2 fs-5">
                         Our vision, our mission and our work are all defined by one goal –
                         ending extreme poverty, whatever it takes. We believe that no-one
-                        should have to live in fear that they won't have a home to sleep in or
+                        should have to live in fear that they wont have a home to sleep in or
                         enough food to feed their children.
                     </p>
                     <p className="py-2 fs-5 fw-bold">
-                        For over 22 years we have been working with the East africa's poorest
+                        For over 22 years we have been working with the East africas poorest
                         people to transform their lives.
                     </p>
                     <p className="py-2 fs-5">
