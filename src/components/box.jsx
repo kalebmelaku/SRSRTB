@@ -1,12 +1,13 @@
+import { PropTypes } from "prop-types";
 import { Link } from "react-router-dom";
-export default function Box() {
+export default function Box(props) {
     return (
         <>
             <div
                 className="card-custom p-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
             >
                 <h4 className="font-bold p-0 text-gray-900 dark:text-white">
-                    Job Title
+                    {props.title}
                 </h4>
 
                 <p
@@ -26,3 +27,6 @@ export default function Box() {
         </>
     );
 }
+Box.propTypes = {
+    title: PropTypes.string.isRequired,
+  };

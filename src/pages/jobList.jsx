@@ -2,8 +2,6 @@ import Banner from "../components/banner";
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 import Box from "../components/box";
-import { Link } from "react-router-dom";
-
 function JobList() {
   return (
     <>
