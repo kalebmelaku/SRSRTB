@@ -1,4 +1,3 @@
-import Banner from "../components/banner";
 import NavBar from "../components/navbar";
 import About from "../components/about";
 import Vacancy from "../components/vacancy";
@@ -10,14 +9,12 @@ export default function Home() {
 
   return (
     <>
-      <Banner />
       <NavBar />
       <Carousal />
       <About />
-      <Partners />
+      {/* <Partners /> */}
       <Vacancy />
       <Footer />
-      {/* <Banner/>      */}
     </>
   );
 }

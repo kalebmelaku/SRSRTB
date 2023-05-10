@@ -5,45 +5,23 @@ export default function About() {
                 <div className="container mx-auto max-w-screen-xl p-4">
                     <h2 className="text-center py-2 mb-5 fw-bold">About Us</h2>
                     <p className="py-2 fs-5">
-                        The Organization for Welfare Development in Action (OWDA) is a
-                        non-profit organization based in the Somali region of Ethiopia. Our
-                        mission is to provide support and improve access to basic services,
-                        including health, education, economic development and peace building
-                        initiatives, throughout this region. poverty, fear and oppression.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod, velit vel semper malesuada, nulla sapien consectetur nulla, vitae commodo elit risus eu purus. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi. Donec euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi.
                     </p>
                     <p className="py-2 fs-5">
-                        OWDA has gained recognition amongst international aid organizations
-                        due their work within the local communities of eastern Ethiopia since
-                        1999 where they have achieved great strides towards sustainable
-                        long-term solutions such as poverty eradication through food security
-                        interventions – water projects that send clean drinking resources
-                        directly into rural areas; improving nutrition through access to
-                        improved seeds & animal vaccinations; establishing new schools with
-                        developing educational programming; providing essential skills
-                        training and vocational activities alongside micronance operations so
-                        individuals can and alternative livelihoods or start up small
-                        businesses.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod, velit vel semper malesuada, nulla sapien consectetur nulla, vitae commodo elit risus eu purus. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi. Donec euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc.
                     </p>
                     <h3 className="fw-bold py-3">What we stand for</h3>
                     <p className="py-2 fs-5">
-                        Our vision, our mission and our work are all defined by one goal –
-                        ending extreme poverty, whatever it takes. We believe that no-one
-                        should have to live in fear that they wont have a home to sleep in or
-                        enough food to feed their children.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod, velit vel semper malesuada, nulla sapien consectetur nulla, vitae commodo elit risus eu purus. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi. Donec euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc.
                     </p>
                     <p className="py-2 fs-5 fw-bold">
-                        For over 22 years we have been working with the East africas poorest
-                        people to transform their lives.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod, velit vel semper malesuada, nulla sapien consectetur nulla, vitae commodo elit.
                     </p>
                     <p className="py-2 fs-5">
-                        Today we are a team of over 400 highly skilled and dedicated
-                        professionals from somali region who share an exceptional depth and
-                        diversity of experience.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod, velit vel semper malesuada, nulla sapien consectetur nulla, vitae commodo elit risus eu purus. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi
                     </p>
                     <p className="py-2 fs-5">
-                        Each year our specialist teams work with 2 million people living on
-                        less than $2 a day, from war zones in tuliguled and qalafe’s to
-                        devastating floods in somali region.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod, velit vel semper malesuada, nulla sapien consectetur nulla, vitae commodo elit risus eu purus. Sed euismod, ipsum eu bibendum tincidunt, velit elit lacinia velit, vel bibendum sapien sapien vel nunc. Nulla facilisi
                     </p>
                 </div>
             </section>

@@ -1,11 +1,9 @@
-import Banner from "../components/banner";
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 import Box from "../components/box";
 function JobList() {
   return (
     <>
-      <Banner />
       <NavBar />
       <section id="vacancy" className="py-3 pb-5">
         <div className="container mx-auto max-w-screen-xl p-4">

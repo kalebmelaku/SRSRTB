@@ -1,4 +1,4 @@
-import homeImg from '../assets/home-img.png';
+import homeImg from '../assets/home_srs.jpg';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";

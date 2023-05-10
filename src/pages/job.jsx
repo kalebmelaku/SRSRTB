@@ -1,4 +1,3 @@
-import Banner from "../components/banner";
 import NavBar from "../components/navbar";
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -11,7 +10,6 @@ export default function Jobs() {
     };
     return (
         <>
-            <Banner />
             <NavBar />
             <div className="container mx-auto">
                 <div className="flex flex-col md:flex-row">

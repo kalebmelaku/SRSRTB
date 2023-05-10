@@ -19,32 +19,32 @@ body {
 }
 
 .btn {
-  background-color: #009245 !important;
+  background-color: #00adf1 !important;
   color: #fff !important;
   transition: all 300ms;
   padding: 5px 20px;
   border-radius: 5px;
-  border: 2px solid #009245;
+  border: 2px solid #00adf1;
 }
 .btn:hover {
-  background-color: rgb(0, 87, 40) !important;
+  background-color: rgba(0, 173, 241, 0.7960784314) !important;
   color: #fff !important;
 }
 
 a.card-link {
   background-color: #fff !important;
   color: #2D2926 !important;
-  border: 2px solid #009245;
+  border: 2px solid #00adf1;
 }
 
 .btn-secondary {
   background: none;
   color: #2D2926;
-  border: 2px solid #009245;
+  border: 2px solid #00adf1;
   transition: all 300ms;
 }
 .btn-secondary:hover {
-  background-color: rgb(0, 87, 40);
+  background-color: rgba(0, 173, 241, 0.7960784314);
   color: #fff;
 }
 
@@ -53,7 +53,7 @@ a.card-link {
 }
 
 .active {
-  border-bottom: 2px solid #009245;
+  border-bottom: 2px solid #00adf1;
 }
 
 .hide-cont, .menu_btn {
@@ -73,7 +73,7 @@ a.card-link {
   }
   .offcanvas {
     width: 50vw !important;
-    background-color: #009245;
+    background-color: #00adf1;
   }
   .offcanvas .offcanvas-header button {
     background: none;
@@ -114,11 +114,11 @@ a.card-link {
 nav {
   background-color: #fff !important;
   box-shadow: 10px 0 25px rgba(156, 156, 156, 0.3882352941);
-  border-bottom: 3px solid #009245;
+  border-bottom: 3px solid #00adf1;
 }
 nav ul .nav-link {
   position: relative;
-  color: #2D2926;
+  color: #000;
   margin-left: 0.5rem;
 }
 nav ul .nav-link::before {
@@ -128,7 +128,7 @@ nav ul .nav-link::before {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #009245;
+  background-color: #00adf1;
   transition: all 400ms;
 }
 nav ul .nav-link:hover::before {
@@ -144,6 +144,7 @@ nav ul .nav-link:hover::before {
 
 .mySwiper img {
   width: 100%;
+  max-height: 50vh;
 }
 
 .slide-container {
@@ -176,7 +177,6 @@ nav ul .nav-link:hover::before {
 
 .mySwiper {
   max-height: 50vh;
-  height: auto;
 }
 
 .swiper-slide {
@@ -199,7 +199,7 @@ nav ul .nav-link:hover::before {
 #partners h2,
 #vacancy h2 {
   font-size: clamp(1.5rem, 1.5vw, 2rem);
-  background-color: #009245;
+  background-color: #00adf1;
   color: #fff;
   padding: 0;
 }
@@ -207,7 +207,7 @@ nav ul .nav-link:hover::before {
 #partners h3,
 #vacancy h3 {
   font-size: clamp(1.5rem, 1.5vw, 2rem);
-  color: #009245;
+  color: #00adf1;
 }
 
 #vacancy h3 {
@@ -230,8 +230,8 @@ nav ul .nav-link:hover::before {
 .flex-container .card-custom {
   width: 18rem;
   border: none;
-  border: 1px solid #009245;
-  border-top: 3px solid #009245;
+  border: 1px solid #00adf1;
+  border-top: 3px solid #00adf1;
   transition: all 300ms;
   padding-bottom: 1rem;
 }
@@ -255,7 +255,7 @@ nav ul .nav-link:hover::before {
   padding: 0 !important;
 }
 #menu a {
-  color: #009245;
+  color: #00adf1;
 }
 #menu a h3 {
   margin: 0;
@@ -292,7 +292,7 @@ footer {
   margin-top: 3rem;
 }
 footer .footer {
-  background: url("../assets/top-header.png") no-repeat center center/cover;
+  background: #00adf1;
   padding: 0.5rem 0;
   position: fixed;
   bottom: 0;
