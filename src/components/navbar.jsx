@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import logo from '../assets/main_logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 export default function NavBar() {
@@ -27,7 +27,7 @@ export default function NavBar() {
                         onClick={handleMenuToggle}
                     >
                         <span className="sr-only">Open main menu</span>
-                        <FontAwesomeIcon icon={faBars} className="fa-2x" />
+                        <FontAwesomeIcon icon={showNav ? faXmark : faBars} className="fa-2x" />
                     </button>
                     <div className={`w-full md:block md:w-auto ${showNav ? 'block' : 'hidden'}`} id="navbar-default">
                         <ul
