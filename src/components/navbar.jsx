@@ -11,9 +11,9 @@ export default function NavBar() {
     };
     return (
         <>
-            <nav className="bg-white dark:bg-gray-900">
+            <nav className="bg-white fixed w-full z-20 top-0 left-0 dark:bg-gray-900">
                 <div
-                    className="max-w-screen-xl flex flex-wrap items-center  justify-between mx-auto p-2 "
+                    className="max-w-screen-xl flex flex-wrap items-center px-4 justify-between mx-auto"
                 >
                     <a href="/" className="navbar-brand">
                         <img src={logo} alt="logo" width="60" height="" className="d-inline-block align-text-top" />

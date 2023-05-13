@@ -11,7 +11,7 @@ export default function Jobs() {
     return (
         <>
             <NavBar />
-            <div className="container mx-auto">
+            <div className="container mx-auto job-list mt-5">
                 <div className="flex flex-col md:flex-row">
                     <div className=" mx-4 mt-3 md:w-1/5 ">
                         <div className="p-2 bg-white flex items-center border-b-2 justify-between">

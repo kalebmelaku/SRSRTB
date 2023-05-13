@@ -162,7 +162,7 @@ nav ul .nav-link:hover::before {
 }
 .slide-container .text {
   position: absolute;
-  top: 35%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
@@ -286,6 +286,10 @@ input::-moz-placeholder {
 label,
 input::placeholder {
   font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+.job-list {
+  margin-top: 5rem;
 }
 
 footer {

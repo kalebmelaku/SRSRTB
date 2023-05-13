@@ -1,9 +1,12 @@
 import { PropTypes } from "prop-types";
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 export default function Box(props) {
+    AOS.init();
     return (
         <>
-            <div
+            <div data-aos="zoom-in" data-aos-delay="100"
                 className="card-custom p-3 bg-white border border-gray-200 rounded-lg shadow "
             >
                 <h4 className="font-bold p-0 text-gray-900">
